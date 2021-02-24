@@ -26,7 +26,7 @@ double Computer::calculateGlobalCPI(Program p){
 }
 /* return the execution time of the program */
 double Computer::calculateExecutionTime(Program p) {
-    return clockRateGHz * 0.000000001 * (p.numArith * cpiArith + p.numStore * cpiStore * p.numLoad * cpiLoad + p.numBranch * cpiBranch); 
+    return (p.numArith * cpiArith + p.numStore * cpiStore + p.numLoad * cpiLoad + p.numBranch * cpiBranch) / (clockRateGHz*1000000); 
 }
 /* return the mips rating of a program */
 double Computer::calculateMIPS(Program p) {

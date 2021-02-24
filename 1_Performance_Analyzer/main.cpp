@@ -21,12 +21,12 @@ int main(int argc, char* argv[]){
 
     // create the algorithm and print results
     std::cout<<"Computer : Program : CPI : Exe Time : MIPS global : MIPS program "<<std::endl;
-    
+
     for (int i=0; i<NUMBER_OF_COMPUTERS; i++){
         for (int j=0; j<NUMBER_OF_PROGRAMS; j++){
             std::cout<<i<<" : "<<j;
             std::cout<<" : "<<arch[i].calculateGlobalCPI(program[j])<<" (I)";
-            std::cout<<" : "<<arch[i].calculateExecutionTime(program[j])<<" (s)";
+            std::cout<<" : "<<arch[i].calculateExecutionTime(program[j])<<" (ms)";
             std::cout<<" : "<<arch[i].calculateMIPS()<<" (MIPS)";
             std::cout<<" : "<<arch[i].calculateMIPS(program[j])<<" (MIPS)"<<std::endl;
         }

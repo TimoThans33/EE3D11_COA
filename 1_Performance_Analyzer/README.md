@@ -25,7 +25,8 @@ Objects of the class program provide an abstract representation of a program on 
 
 ## Results
 
-Computer | Program | CPI | Exe Time | MIPS global | MIPS program
+Computer | Program | CPI | exe time |MIPS-global | MIPS-program
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
 0 | 0 | 2.08889 (I) | 6.42e-5 (s) | 363.636 (MIPS) | 478.723 (MIPS)
 0 | 1 | 2.75 (I) | 0.0024024 (s) | 363.636 (MIPS) | 363.636 (MIPS)
 0 | 2 | 2.85714 (I) | 0.0012018 (s) | 363.636 (MIPS) | 350 (MIPS)
