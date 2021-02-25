@@ -1,3 +1,0 @@
-/home/timo/Projects/EE3D11_COA/2_Instruction_set_simulator/build/CMakeFiles/rebuild_cache.dir
-/home/timo/Projects/EE3D11_COA/2_Instruction_set_simulator/build/CMakeFiles/edit_cache.dir
-/home/timo/Projects/EE3D11_COA/2_Instruction_set_simulator/build/CMakeFiles/app.dir
