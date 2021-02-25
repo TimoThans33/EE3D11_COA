@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/app.dir/src2_1/2_1.cpp.o CMakeFiles/app.dir/src2_1/registers.cpp.o  -o app 
