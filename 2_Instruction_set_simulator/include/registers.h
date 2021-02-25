@@ -5,12 +5,13 @@
 class Registers
 {
     private:
+        int PC;
     public:
         Registers();
         // void setRegister (int mgNum, int value);
         // int getRegister( int regNum );
-        // void setPC (int value);
-        // int getPC ();
+        void setPC (int value);
+        int getPC ();
         void print();
         struct Rgstrs {
             int regVal;
