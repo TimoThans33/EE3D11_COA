@@ -12,17 +12,17 @@ Registers::Registers()
     print();
     setPC(0);
 }
-/*
-void Registers::setRegister(int mgNum, int value)
-{
 
+void Registers::setRegister (int regNum, int value)
+{
+    regstr[regnum] = value;
 }
 
-int Registers::getRegister(int regNum)
+int Registers::getRegister (int regNum)
 {
-
+    return regstr[regnum];
 }
-*/
+
 void Registers::setPC (int value)
 {
     PC = value;

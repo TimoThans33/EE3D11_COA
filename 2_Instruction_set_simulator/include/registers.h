@@ -8,11 +8,12 @@ class Registers
         int PC;
     public:
         Registers();
-        // void setRegister (int mgNum, int value);
-        // int getRegister( int regNum );
+        void setRegister (int mgNum, int value);
+        int getRegister( int regNum );
         void setPC (int value);
         int getPC ();
         void print();
+    private:
         struct Rgstrs {
             int regVal;
         } regstr[MAX_REGISTERS];
