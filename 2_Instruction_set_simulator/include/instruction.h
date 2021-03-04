@@ -9,31 +9,51 @@ using namespace std;
 /* Inheritance and polymorphism */
 
 class Instruction {
+    protected:
+        int val1;
+        int val2;
+        int val3;
     public:
-        Instruction(Registers r)
+        void set_values(int a, int b, int c)
         {
-            r.print();
-            std::cout<<"Constructing instruction \n";
+            val1 = a; val2 = b; val3 = c;
         }
-        virtual ~Instruct()
+        void disassemble(){
+            printf("add ${%d}, ${%d}, ${%d}\n", val1, val2, val3);
+        }
+        virtual int execute (Registers *){ return 0; };
+        virtual ~Instruction()
         {
             std::cout<<"Destructing instruction \n";
         }
-}
+};
+
 class AddInstruction : public Instruction
 {
-    AddInstruction(int a, int b, int c)
-    {
-        r.setRegister(a, r.getRegister(b)+r.getRegister(c)));
-    }
+    public:
+        int execute (Registers& r)
+        {
+            r.setRegister(val1, r.getRegister(val2)+r.getRegister(val3));
+            return r.getPC()+1;
+        }
+        ~AddInstruction()
+        {
+            std::cout<<"Deconstructing AddInstruction\n";
+        }
 };
 
 
 class SubInstruction : public Instruction
 {
-    SubInstruction( int a, int b, int c)
-    {
-        r.setRegister( a, r.getRegister(b), r.getRegister(c) );
-    }
-}
+    public:
+        int execute (Registers& r)
+        {
+            r.setRegister(val1, r.getRegister(val2) - r.getRegister(val3));
+            return r.getPC()+1;
+        }
+        ~SubInstruction()
+        {
+            std::cout<<"Deconstructing SubInstruction\n";
+        }
+};
 #endif /* _INSTRUCTION_H_ */
