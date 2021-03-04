@@ -18,3 +18,19 @@ Text-based user interface
 * f Print registers
 * s Single step program
 
+## Getting started
+### Windows
+```
+Install WSL2 
+https://docs.microsoft.com/en-us/windows/wsl/install-win10
+sudo apt-get update
+sudo apt-get install build-essentials cmake
+```
+### Linux
+
+in src2_*
+```
+mkdir build && cmake ../
+make
+./app
+```

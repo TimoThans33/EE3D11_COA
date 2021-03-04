@@ -12,17 +12,6 @@ Registers::Registers()
     print();
     setPC(0);
 }
-/*
-void Registers::setRegister(int mgNum, int value)
-{
-
-}
-
-int Registers::getRegister(int regNum)
-{
-
-}
-*/
 void Registers::setPC (int value)
 {
     PC = value;
