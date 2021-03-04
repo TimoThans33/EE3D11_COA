@@ -18,3 +18,16 @@ Text-based user interface
 * f Print registers
 * s Single step program
 
+## Getting started
+
+### Windows
+```
+Install windows subsystem for linux
+sudo apt-get install build-essentials cmake
+```
+in directory with cmakefile
+```
+mkdir build && cd build
+cmake ../ && make
+./app
+```
