@@ -41,3 +41,8 @@ void Registers::print()
     }
     printf("\n-------------------------------------------\n");
 }
+
+int test_func()
+{
+    return(1);
+}
