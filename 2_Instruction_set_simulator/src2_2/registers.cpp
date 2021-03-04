@@ -15,12 +15,12 @@ Registers::Registers()
 
 void Registers::setRegister (int regNum, int value)
 {
-    regstr[regnum] = value;
+    regstr[regNum].regVal = value;
 }
 
 int Registers::getRegister (int regNum)
 {
-    return regstr[regnum];
+    return regstr[regNum].regVal;
 }
 
 void Registers::setPC (int value)

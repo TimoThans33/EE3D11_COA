@@ -10,8 +10,9 @@ using namespace std;
 
 class Instruction {
     public:
-        Instruction()
+        Instruction(Registers r)
         {
+            r.print();
             std::cout<<"Constructing instruction \n";
         }
         virtual ~Instruct()
@@ -21,14 +22,18 @@ class Instruction {
 }
 class AddInstruction : public Instruction
 {
-    AddInstruction(Registers r, int a, int b, int c)
+    AddInstruction(int a, int b, int c)
     {
-        setRegister(a, r.getRegister(b)+r.getRegister(c)))
+        r.setRegister(a, r.getRegister(b)+r.getRegister(c)));
     }
 };
 
-class OriInstruction : public OriInstruction
-{
 
-};
+class SubInstruction : public Instruction
+{
+    SubInstruction( int a, int b, int c)
+    {
+        r.setRegister( a, r.getRegister(b), r.getRegister(c) );
+    }
+}
 #endif /* _INSTRUCTION_H_ */
