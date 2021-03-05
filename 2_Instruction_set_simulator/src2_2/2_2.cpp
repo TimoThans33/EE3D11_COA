@@ -1,54 +1,40 @@
 #include <iostream>
+#include <vector>
 #include "registers.h"
 #include "instruction.h"
 
+/* vector to store instructions */
+std::vector<Instruction*> *instructions;
 
 int main(){
-    int PC;
-    Registers reg;
+    Registers *reg = new Registers ();
 
-    Instruction instruction;
-    AddInstruction add;
-    SubInstruction sub;
-    OriInstruction ori;
-    BrnInstruction brne;
+    /* new instance of instruction vector */
+    instructions =  new std::vector<Instruction*>;
 
-    /* make our little program */
-    Instruction * ins1 = &add;
-    ins1->set_values (8, 3, 6);
-    Instruction * ins2 = &sub;
-    ins2->set_values (16, 18, 22);
-    Instruction * ins3 = &ori;
-    ins3->set_values (24, 28, 30);
-    Instruction * ins4 = &brne;
-    ins4->set_values (12, 14, -4);
+    instructions->push_back (new OriInstruction(1, 0, 12));
+    instructions->push_back (new OriInstruction(2, 0, 4));
+    instructions->push_back (new OriInstruction(3, 0, 1));
+    instructions->push_back (new AddInstruction(4, 4, 1));
+    instructions->push_back (new SubInstruction(2, 2, 3));
+    instructions->push_back (new BrneInstruction(2, 8, -3));
 
     /* dissassemble */
-    ins1->disassemble();
-    ins2->disassemble();
-    ins3->disassemble();
-    ins4->disassemble();
+    std::vector<Instruction*>::iterator it;
+    for (it = instructions->begin (); it < instructions->end (); it++)
+    {
+        (*it)->disassemble();
+    }
 
-    /* set some arbitrary values in the registers */
-    reg.setRegister(6, 4);
-    reg.setRegister(22, 8);
-    reg.setRegister(28, 5);
-    reg.setRegister(30, 13);
-    reg.setRegister(12, 11);
-
-    PC = ins1->execute(&reg);
-    reg.setPC(PC);
-    printf("PC : %d\n", reg.getPC());
-    PC = ins2->execute(&reg);
-    reg.setPC(PC);
-    printf("PC : %d\n", reg.getPC());
-    PC = ins3->execute(&reg);
-    reg.setPC(PC);
-    printf("PC : %d\n", reg.getPC());
-    PC = ins4->execute(&reg);
-    reg.setPC(PC);
-    printf("PC : %d\n", reg.getPC());
-    reg.print();
+    /* execute program */
+    it = instructions->begin ();
+    while (it >= instructions->begin () && it < instructions->end())
+    {
+        reg->setPC ((*it)->execute (reg));
+        it = instructions->begin () + reg->getPC ();
+    }
+    /* print registers */
+    reg->print();
 
     return 0;
 }   

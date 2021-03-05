@@ -6,15 +6,13 @@
 
 using namespace std;
 
-/* Inheritance and polymorphism */
-
 class Instruction {
     protected:
         int val1;
         int val2;
         int val3;
     public:
-        void set_values(int a, int b, int c)
+        Instruction(int a, int b, int c)
         {
             val1 = a; val2 = b; val3 = c;
         }
@@ -26,6 +24,7 @@ class Instruction {
 class AddInstruction : public Instruction
 {
     public:
+        AddInstruction (int a, int b, int c) : Instruction(a, b, c) {};
         int execute (Registers *r)
         {
             r->setRegister(val1, r->getRegister(val2)+r->getRegister(val3));
@@ -44,6 +43,7 @@ class AddInstruction : public Instruction
 class SubInstruction : public Instruction
 {
     public:
+        SubInstruction (int a, int b, int c) : Instruction(a, b, c) {};
         int execute (Registers *r)
         {
             r->setRegister(val1, r->getRegister(val2) - r->getRegister(val3));
@@ -61,10 +61,11 @@ class SubInstruction : public Instruction
 class OriInstruction : public Instruction
 {
     public:
+        OriInstruction (int a, int b, int c) : Instruction(a, b, c) {};
         int execute (Registers *r)
         {
-            r->setRegister(val1, r->getRegister(val2) | r->getRegister(val3));
-            return r->getPC()+1;   
+            r->setRegister(val1, r->getRegister(val2) | val3);
+            return r->getPC()+1;
         }
         void disassemble(){
             printf("ori ${%d}, ${%d}, %d\n", val1, val2, val3);
@@ -75,9 +76,10 @@ class OriInstruction : public Instruction
         }
 };
 
-class BrnInstruction : public Instruction
+class BrneInstruction : public Instruction
 {
     public:
+        BrneInstruction (int a, int b, int c) : Instruction(a, b, c) {};
         int execute (Registers *r)
         {
             if (r->getRegister(val1) != r->getRegister(val2))
@@ -92,9 +94,9 @@ class BrnInstruction : public Instruction
         void disassemble(){
             printf("brne ${%d}, ${%d}, %d\n", val1, val2, val3);
         }
-        ~BrnInstruction()
+        ~BrneInstruction()
         {
-            std::cout<<"Deconstructing BrnInstruction\n";
+            std::cout<<"Deconstructing BrneInstruction\n";
         }
 };
 #endif /* _INSTRUCTION_H_ */
