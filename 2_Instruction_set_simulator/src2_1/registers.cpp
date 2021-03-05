@@ -9,20 +9,19 @@ Registers::Registers()
     {
         regstr[i].regVal = 0;
     }
-    print();
     setPC(0);
 }
-/*
-void Registers::setRegister(int mgNum, int value)
-{
 
+void Registers::setRegister (int regNum, int value)
+{
+    regstr[regNum].regVal = value;
 }
 
-int Registers::getRegister(int regNum)
+int Registers::getRegister (int regNum)
 {
-
+    return regstr[regNum].regVal;
 }
-*/
+
 void Registers::setPC (int value)
 {
     PC = value;
@@ -37,7 +36,8 @@ void Registers::print()
     printf("\nAvailable registers (%d)\n", MAX_REGISTERS);
     for(int i=0; i<MAX_REGISTERS; i++)
     {
-        printf("%d | %d\n", i, regstr[i].regVal);
+        printf("| %d | %d |\n", i, regstr[i].regVal);
     }
     printf("\n-------------------------------------------\n");
 }
+
