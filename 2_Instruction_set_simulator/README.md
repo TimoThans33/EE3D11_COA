@@ -21,6 +21,7 @@ Text-based user interface
 ## Getting started
 
 We have 3 folders of source code.
+```
     ├── src2_1                                                                          
           ├── include
                 └── registers.h                     
@@ -42,7 +43,7 @@ We have 3 folders of source code.
            ├── registers.h
            ├── simulator.h
            └── program.h
-
+```
 ### Windows
 
 step 1: install linux ;p 
