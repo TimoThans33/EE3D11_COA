@@ -15,7 +15,6 @@ Registers::Registers()
 void Registers::setRegister (int regNum, int value)
 {
     regstr[regNum].regVal = value;
-    printf("$%d = %d\n",regNum, regstr[regNum].regVal);
 }
 
 int Registers::getRegister (int regNum)

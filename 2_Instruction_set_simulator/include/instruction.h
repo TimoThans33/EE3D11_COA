@@ -18,14 +18,9 @@ class Instruction {
         {
             val1 = a; val2 = b; val3 = c;
         }
-        void disassemble(){
-            printf("add ${%d}, ${%d}, ${%d}\n", val1, val2, val3);
-        }
+        virtual void disassemble(){ };
         virtual int execute (Registers *){ return 0; };
-        virtual ~Instruction()
-        {
-            std::cout<<"Destructing instruction \n";
-        }
+        virtual ~Instruction() {};
 };
 
 class AddInstruction : public Instruction
@@ -35,6 +30,9 @@ class AddInstruction : public Instruction
         {
             r->setRegister(val1, r->getRegister(val2)+r->getRegister(val3));
             return r->getPC()+1;
+        }
+        void disassemble(){
+            printf("add ${%d}, ${%d}, ${%d}\n", val1, val2, val3);
         }
         ~AddInstruction()
         {
@@ -51,9 +49,52 @@ class SubInstruction : public Instruction
             r->setRegister(val1, r->getRegister(val2) - r->getRegister(val3));
             return r->getPC()+1;
         }
+        void disassemble(){
+            printf("sub ${%d}, ${%d}, ${%d}\n", val1, val2, val3);
+        }
         ~SubInstruction()
         {
             std::cout<<"Deconstructing SubInstruction\n";
+        }
+};
+
+class OriInstruction : public Instruction
+{
+    public:
+        int execute (Registers *r)
+        {
+            r->setRegister(val1, r->getRegister(val2) | r->getRegister(val3));
+            return r->getPC()+1;   
+        }
+        void disassemble(){
+            printf("ori ${%d}, ${%d}, %d\n", val1, val2, val3);
+        }
+        ~OriInstruction()
+        {
+            std::cout<<"Deconstructing OriInstruction\n";
+        }
+};
+
+class BrnInstruction : public Instruction
+{
+    public:
+        int execute (Registers *r)
+        {
+            if (r->getRegister(val1) != r->getRegister(val2))
+            {
+                return r->getPC()+1+val3;
+            }
+            else
+            {
+                return r->getPC()+1;
+            }
+        }
+        void disassemble(){
+            printf("brne ${%d}, ${%d}, %d\n", val1, val2, val3);
+        }
+        ~BrnInstruction()
+        {
+            std::cout<<"Deconstructing BrnInstruction\n";
         }
 };
 #endif /* _INSTRUCTION_H_ */
