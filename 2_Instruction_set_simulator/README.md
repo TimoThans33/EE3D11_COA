@@ -19,18 +19,17 @@ Text-based user interface
 * s Single step program
 
 ## Getting started
+
 ### Windows
 ```
-Install WSL2 
+Install windows subsystem for linux
 https://docs.microsoft.com/en-us/windows/wsl/install-win10
 sudo apt-get update
-sudo apt-get install build-essentials cmake
+sudo apt-get install build-essential cmake
 ```
-### Linux
-
-in src2_*
+in directory with cmakefile
 ```
-mkdir build && cmake ../
-make
+mkdir build && cd build
+cmake ../ && make
 ./app
 ```
