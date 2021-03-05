@@ -31,10 +31,10 @@ class Instruction {
 class AddInstruction : public Instruction
 {
     public:
-        int execute (Registers& r)
+        int execute (Registers *r)
         {
-            r.setRegister(val1, r.getRegister(val2)+r.getRegister(val3));
-            return r.getPC()+1;
+            r->setRegister(val1, r->getRegister(val2)+r->getRegister(val3));
+            return r->getPC()+1;
         }
         ~AddInstruction()
         {
@@ -46,10 +46,10 @@ class AddInstruction : public Instruction
 class SubInstruction : public Instruction
 {
     public:
-        int execute (Registers& r)
+        int execute (Registers *r)
         {
-            r.setRegister(val1, r.getRegister(val2) - r.getRegister(val3));
-            return r.getPC()+1;
+            r->setRegister(val1, r->getRegister(val2) - r->getRegister(val3));
+            return r->getPC()+1;
         }
         ~SubInstruction()
         {
