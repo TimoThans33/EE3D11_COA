@@ -24,7 +24,8 @@ Text-based user interface
 ```
 Install windows subsystem for linux
 https://docs.microsoft.com/en-us/windows/wsl/install-win10
-sudo apt-get install build-essentials cmake
+sudo apt-get update
+sudo apt-get install build-essential cmake
 ```
 in directory with cmakefile
 ```
