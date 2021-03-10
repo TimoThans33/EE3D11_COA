@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1615367442 source:c:\users\mathi\documents\tudelft\ee3d11\ee3d11_coa\2_instruction_set_simulator\src2_3\main.cpp
+	"simulator.h"
+	"program.h"
+	"registers.h"
+
+1615368422 c:\users\mathi\documents\tudelft\ee3d11\ee3d11_coa\2_instruction_set_simulator\include\simulator.h
+	<stdio.h>
+	"registers.h"
+	"program.h"
+
+1615368441 c:\users\mathi\documents\tudelft\ee3d11\ee3d11_coa\2_instruction_set_simulator\include\registers.h
+	<stdio.h>
+
+1615368424 c:\users\mathi\documents\tudelft\ee3d11\ee3d11_coa\2_instruction_set_simulator\include\program.h
+	<vector>
+	<stdio.h>
+	"instruction.h"
+	"registers.h"
+
+1615368425 c:\users\mathi\documents\tudelft\ee3d11\ee3d11_coa\2_instruction_set_simulator\include\instruction.h
+	<iostream>
+	<stdio.h>
+	"registers.h"
+
+1615367442 source:c:\users\mathi\documents\tudelft\ee3d11\ee3d11_coa\2_instruction_set_simulator\src2_3\program.cpp
+	<vector>
+	"program.h"
+	"instruction.h"
+
+1615367442 source:c:\users\mathi\documents\tudelft\ee3d11\ee3d11_coa\2_instruction_set_simulator\src2_3\simulator.cpp
+	<iostream>
+	<string>
+	"simulator.h"
+	"program.h"
+	"registers.h"
+

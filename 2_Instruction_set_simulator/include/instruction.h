@@ -2,6 +2,7 @@
 #define _INSTRUCTION_H_
 
 #include <iostream>
+#include <stdio.h>
 #include "registers.h"
 
 using namespace std;

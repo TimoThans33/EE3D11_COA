@@ -1,6 +1,7 @@
 #ifndef _SIMULATOR_H_
 #define _SIMULATOR_H_
 
+#include <stdio.h>
 #include "registers.h"
 #include "program.h"
 

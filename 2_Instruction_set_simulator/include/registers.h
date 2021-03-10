@@ -1,6 +1,7 @@
 #ifndef _REGISTERS_H_
 #define _REGISTERS_H_
 
+#include <stdio.h>
 #define MAX_REGISTERS 32
 class Registers
 {
