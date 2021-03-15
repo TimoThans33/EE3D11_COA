@@ -35,45 +35,45 @@ int binarySearch (int a[], int length, int elem)
 void insertionSort (int a[], int length)
 {
 	int i;
-	int *b = new int [length];
+	int *b = new int [length]; //initiallize a pointer b to array b[] with 'length' entries
 
-	for (i = 0; i < length; i++)
+	for (i = 0; i < length; i++) //for all array entries
 	{
-		int position = binarySearch (b, i, a[i]);
-		insert (b, i, a[i], position);
+		int position = binarySearch (b, i, a[i]); //find the sorted position of a[i] 
+		insert (b, i, a[i], position); //copy the value of the a[i] into b[position] 
 	}
 
 	for (i = 0; i < length; i++)
 	{
-		a[i] = b[i];
+		a[i] = b[i]; //copy sorted array b into array a 
 	}
 
-	delete [] b;
+	delete [] b; //clear memory allocated for b
 }
 
 
 int main (void)
 {
-	int i, length;
-	int *a;
+	int i, length; //initialize i, length 
+	int *a; //initialize a pointer that stores the address of a variable of type int
 
-	std::cout << "Insert the array size" << std::endl;
-	std::cin >> length;
+	std::cout << "Insert the array size" << std::endl; //print to the monitor
+	std::cin >> length; //store user intput in variable 'length'
 
-	a = new int[length];
+	a = new int[length]; //new operator requests memory allocation, initializes it and returns the address of the memory to pointer a
 
-	std::cout << "Insert the array elements, one per line" << std::endl;
-	for (i = 0; i < length; i++)
+	std::cout << "Insert the array elements, one per line" << std::endl; //print to the monitor
+	for (i = 0; i < length; i++) 
 	{
-		std::cin >> a[i];
+		std::cin >> a[i]; //let the user input values for each array entry of a
 	}
 
-	insertionSort (a, length);
+	insertionSort (a, length); //sort table using the Insertion Sort Algorithm
 
-	std::cout << "The sorted array is:" << std::endl;
-	for (i = 0; i < length; i++)
+	std::cout << "The sorted array is:" << std::endl; //print to the monitor
+	for (i = 0; i < length; i++)    
 	{
-		std::cout << a[i] << std::endl;
+		std::cout << a[i] << std::endl; //print every entry in the array on a new line
 	}
 
 	return 0;

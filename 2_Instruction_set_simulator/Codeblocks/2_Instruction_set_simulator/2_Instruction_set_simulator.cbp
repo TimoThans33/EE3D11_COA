@@ -31,8 +31,17 @@
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
+			<Add directory="../../include" />
+			<Add directory="../../src2_3" />
 		</Compiler>
-		<Unit filename="main.cpp" />
+		<Unit filename="../../include/instruction.h" />
+		<Unit filename="../../include/program.h" />
+		<Unit filename="../../include/registers.h" />
+		<Unit filename="../../include/simulator.h" />
+		<Unit filename="../../src2_3/main.cpp" />
+		<Unit filename="../../src2_3/program.cpp" />
+		<Unit filename="../../src2_3/registers.cpp" />
+		<Unit filename="../../src2_3/simulator.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
