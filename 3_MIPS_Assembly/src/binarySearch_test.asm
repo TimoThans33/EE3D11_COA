@@ -6,10 +6,19 @@
 		
 	
 binSearch:	#begin code only used for testing
-		la 	$a0, testArray 			# $t3 has the address of testArray
+		la 	$a0, testArray 			# $a0 has the address of testArray
 		addi 	$a1, $zero, 5			# let's say for now that length = 5
-		addi 	$a2, $zero, 5			# elem, value of a[i] from the main
+		addi 	$a2, $zero, 4			# elem, value of a[i] from the main
 		#end code only used for testing
+		
+		
+		# first, lets save the to be used s registers and the return address to the stack
+		addi	$sp, $sp, -12				# make room for 5 registers
+		sw	$s2, 8($sp)
+		sw 	$s1, 4($sp)
+		sw 	$s0, 0($sp)
+		# now we can safely use these registers in this procedure. 
+		
 		
 		addi	$s0, $zero, -1			# low = -1
 		move	$s1, $a1			# high, s1 gets value of a1 (length)
@@ -38,6 +47,15 @@ loop:		#while loop
 		
 exit:		#exit of while loop
 		move	$v0, $s1			#return high
+		
+		# finally, before returing to caller, we restore the stack
+		lw	$s0, 0($sp)
+		lw	$s1, 4($sp)
+		lw	$s2, 8($sp)
+		addi 	$sp, $sp, 12				# restore stack pointer
+		# now we can return to caller
+		
+		
 		#jr	$ra				#jump back to calller, uncomment in main
 		
 		#begin code only used for testing
