@@ -1,0 +1,421 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS
+T_opt
+!s110 1616968552
+Vgj`A4nDXk5dz[ZnN4`E0J2
+04 7 9 work mips_tb behaviour 1
+=1-000ae431a4f1-6060fb68-c254e-44aa6
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.6g;65
+Ealu
+Z1 w1616960195
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alu.vhdl
+Z6 F/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alu.vhdl
+l0
+L5
+V^YHbUD`IkaCJ2PSoZmE=K3
+!s100 9UHWeTZf[VkO;G9jjj:XZ3
+Z7 OL;C;10.6g;65
+32
+Z8 !s110 1616968472
+!i10b 1
+Z9 !s108 1616968472.000000
+Z10 !s90 -reportprogress|300|-work|work|/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alu.vhdl|
+Z11 !s107 /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alu.vhdl|
+!i113 0
+Z12 o-work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavior
+R2
+R3
+R4
+DEx4 work 3 alu 0 22 ^YHbUD`IkaCJ2PSoZmE=K3
+l18
+L17
+VcjLXj=L?EeZ]`l_e<B@G42
+!s100 =nd:SWGgG@eV][jQ7aEdW2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Ealucontrol
+Z14 w1616958657
+R3
+R4
+R0
+Z15 8/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alucontrol.vhdl
+Z16 F/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alucontrol.vhdl
+l0
+L4
+VO5JRkMNfQCbiV2]kh@9k_2
+!s100 kk^;[bFc;3HgjMF8iZeb<2
+R7
+32
+Z17 !s110 1616968474
+!i10b 1
+Z18 !s108 1616968474.000000
+Z19 !s90 -reportprogress|300|-work|work|/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alucontrol.vhdl|
+Z20 !s107 /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alucontrol.vhdl|
+!i113 0
+R12
+R13
+Abehavior
+R3
+R4
+DEx4 work 10 alucontrol 0 22 O5JRkMNfQCbiV2]kh@9k_2
+l16
+L15
+V?C?Y;<K1030dkB6GU?>K=2
+!s100 `<ZOTBdl6S9l38QG5SZP21
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 0
+R12
+R13
+Econtrol
+Z21 w1616968464
+R3
+R4
+R0
+Z22 8/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl
+Z23 F/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl
+l0
+L4
+VId[WM;aJIM6_7Kz]UjFVT0
+!s100 ho9W^4Y@cTBz8aSVb]Qmd2
+R7
+32
+Z24 !s110 1616968476
+!i10b 1
+Z25 !s108 1616968476.000000
+Z26 !s90 -reportprogress|300|-work|work|/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl|
+Z27 !s107 /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl|
+!i113 0
+R12
+R13
+Abehavior
+R3
+R4
+DEx4 work 7 control 0 22 Id[WM;aJIM6_7Kz]UjFVT0
+l22
+L21
+V1e1KcMQ@L`oAo><1;jC?e3
+!s100 >B@5?KWNn7LLZ6:X:N^>C1
+R7
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 0
+R12
+R13
+Eextend
+Z28 w1616075426
+R3
+R4
+R0
+Z29 8/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/extend.vhdl
+Z30 F/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/extend.vhdl
+l0
+L4
+V=5D[ObYZ_17Yc_N6R@Kh?1
+!s100 ^olnm165gmP>W@ZMoB<a_3
+R7
+32
+Z31 !s110 1616968478
+!i10b 1
+Z32 !s108 1616968478.000000
+Z33 !s90 -reportprogress|300|-work|work|/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/extend.vhdl|
+Z34 !s107 /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/extend.vhdl|
+!i113 0
+R12
+R13
+Abehavior
+R3
+R4
+DEx4 work 6 extend 0 22 =5D[ObYZ_17Yc_N6R@Kh?1
+l15
+L13
+VSbZFLMFWH`^hd=iMHcA[I1
+!s100 Z5oe=8;iC2iIZC21lOQ^;1
+R7
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 0
+R12
+R13
+Ejump
+Z35 w1616968224
+R2
+R3
+R4
+R0
+Z36 8/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/jump.vhdl
+Z37 F/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/jump.vhdl
+l0
+L5
+VnaDV1l>]M6K[H_@Pz:8]53
+!s100 nRmNQc79KR3O=JaQ[W0S52
+R7
+32
+Z38 !s110 1616968479
+!i10b 1
+Z39 !s108 1616968479.000000
+Z40 !s90 -reportprogress|300|-work|work|/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/jump.vhdl|
+Z41 !s107 /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/jump.vhdl|
+!i113 0
+R12
+R13
+Abehavior
+R2
+R3
+R4
+DEx4 work 4 jump 0 22 naDV1l>]M6K[H_@Pz:8]53
+l23
+L20
+VeBSbiI?PF>]nF`POIYA@61
+!s100 ahhYDihkGO4Pcn]8QS@C[3
+R7
+32
+R38
+!i10b 1
+R39
+R40
+R41
+!i113 0
+R12
+R13
+Ememory
+Z42 w1616955607
+R2
+R3
+R4
+R0
+Z43 8/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/memory.vhdl
+Z44 F/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/memory.vhdl
+l0
+L5
+V^T_dS^OBaLV[UBDjkEzf^1
+!s100 binHQm[S:G9bP:lGF<4KK2
+R7
+32
+Z45 !s110 1616968481
+!i10b 1
+Z46 !s108 1616968481.000000
+Z47 !s90 -reportprogress|300|-work|work|/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/memory.vhdl|
+Z48 !s107 /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/memory.vhdl|
+!i113 0
+R12
+R13
+Abehavior
+R2
+R3
+R4
+DEx4 work 6 memory 0 22 ^T_dS^OBaLV[UBDjkEzf^1
+l25
+L20
+VBzdGdHz`EzOPhBA^K>X630
+!s100 W@H?A3`WB>F4iYKYg5=?53
+R7
+32
+R45
+!i10b 1
+R46
+R47
+R48
+!i113 0
+R12
+R13
+Emips
+Z49 w1616968528
+R2
+R3
+R4
+R0
+Z50 8/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl
+Z51 F/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl
+l0
+L5
+V2DBa?c`J>36gc542<[:3o0
+!s100 WIhP2D^H9jZ]f2^c7EUBY1
+R7
+32
+Z52 !s110 1616968537
+!i10b 1
+Z53 !s108 1616968537.000000
+Z54 !s90 -reportprogress|300|-work|work|/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl|
+Z55 !s107 /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl|
+!i113 0
+R12
+R13
+Abehavior
+R2
+R3
+R4
+DEx4 work 4 mips 0 22 2DBa?c`J>36gc542<[:3o0
+l129
+L13
+VeN7CcZc2VM`z7Z4S7;[<@1
+!s100 PYIG7Pd<8Lda8:dHeEcMU0
+R7
+32
+R52
+!i10b 1
+R53
+R54
+R55
+!i113 0
+R12
+R13
+Emips_tb
+R28
+R3
+R4
+R0
+Z56 8/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips_tb.vhdl
+Z57 F/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips_tb.vhdl
+l0
+L4
+Vh19I09ISOQi7T3QSo:oEH3
+!s100 VmfDZ1X=N<1n?g3MO?IDL3
+R7
+32
+Z58 !s110 1616968539
+!i10b 1
+Z59 !s108 1616968539.000000
+Z60 !s90 -reportprogress|300|-work|work|/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips_tb.vhdl|
+Z61 !s107 /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips_tb.vhdl|
+!i113 0
+R12
+R13
+Abehaviour
+R3
+R4
+DEx4 work 7 mips_tb 0 22 h19I09ISOQi7T3QSo:oEH3
+l20
+L7
+VJec<<cOben=f5zlVn>j1m2
+!s100 ^nai?7<cAD_7<M4<M?]nF0
+R7
+32
+R58
+!i10b 1
+R59
+R60
+R61
+!i113 0
+R12
+R13
+Epc
+R28
+R2
+R3
+R4
+R0
+Z62 8/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/pc.vhdl
+Z63 F/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/pc.vhdl
+l0
+L5
+VToh^Bb=c?5fA01YXZ3PRi0
+!s100 z[S0JLgRle:Pd73L1EEjE0
+R7
+32
+Z64 !s110 1616968541
+!i10b 1
+Z65 !s108 1616968541.000000
+Z66 !s90 -reportprogress|300|-work|work|/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/pc.vhdl|
+Z67 !s107 /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/pc.vhdl|
+!i113 0
+R12
+R13
+Abehavior
+R2
+R3
+R4
+DEx4 work 2 pc 0 22 Toh^Bb=c?5fA01YXZ3PRi0
+l19
+L17
+VT`@aOYSWe9h7FK?dhlojb1
+!s100 gc?_2@IN0kzY2J4eCVjD^3
+R7
+32
+R64
+!i10b 1
+R65
+R66
+R67
+!i113 0
+R12
+R13
+Eregisters
+R28
+R2
+R3
+R4
+R0
+Z68 8/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/registers.vhdl
+Z69 F/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/registers.vhdl
+l0
+L5
+V>OE18VohfSNN<i5_z@5`B0
+!s100 @]3<2_fIBAPIjf5f98?2m1
+R7
+32
+Z70 !s110 1616968542
+!i10b 1
+Z71 !s108 1616968542.000000
+Z72 !s90 -reportprogress|300|-work|work|/home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/registers.vhdl|
+Z73 !s107 /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/registers.vhdl|
+!i113 0
+R12
+R13
+Abehavior
+R2
+R3
+R4
+DEx4 work 9 registers 0 22 >OE18VohfSNN<i5_z@5`B0
+l24
+L20
+V5oclSCJm@^bEA]@N;GSYS3
+!s100 XMz`MSz_e2n_gMI2aN>W@0
+R7
+32
+R70
+!i10b 1
+R71
+R72
+R73
+!i113 0
+R12
+R13
