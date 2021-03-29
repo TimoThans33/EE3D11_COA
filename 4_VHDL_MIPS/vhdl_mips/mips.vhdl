@@ -71,8 +71,7 @@ component jump
 		registers	: in  std_logic_vector (31 downto 0);
 		current		: in  std_logic_vector (31 downto 0);
 		branch		: out std_logic;
-		address		: out std_logic_vector (31 downto 0);
-		writedata	: out std_logic_vector (31 downto 0)
+		address		: out std_logic_vector (31 downto 0)
 	);
 end component;
 
@@ -127,10 +126,9 @@ end component;
 	signal branchaddress, extended, instruction, readdata1, readdata2, memorydata, current_pc, add_pc, writedata, result, aludatasel	: std_logic_vector (31 downto 0);
 
 begin
-	with regdst select
-		writereg <=	instruction (15 downto 11)	when "01",
-				"11111" when "10",
-				instruction (20 downto 16)	when others;
+	writereg <=	instruction (15 downto 11)	when regdst = "01" else
+				"11111" when regdst = "10" else
+				instruction (20 downto 16);
 
 	with memtoreg select
 		writedata <=	memorydata			when '1',
@@ -155,8 +153,7 @@ jumpmap:	jump		port map (	branchalu	=> branchalu,
 						registers	=> readdata1,
 						current		=> add_pc,
 						branch		=> branch,
-						address		=> branchaddress,
-						writedata	=> writedata
+						address		=> branchaddress
 				);
 
 extendmap:	extend		port map (	aluop		=> aluop,

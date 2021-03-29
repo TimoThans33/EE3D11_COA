@@ -12,8 +12,7 @@ entity jump is
 		registers		: in  std_logic_vector (31 downto 0);
 		current			: in  std_logic_vector (31 downto 0);
 		branch			: out std_logic;
-		address			: out std_logic_vector (31 downto 0);
-		writedata		: out std_logic_vector (31 downto 0)
+		address			: out std_logic_vector (31 downto 0)
 	);
 end jump;
 
@@ -37,7 +36,6 @@ begin
 				address	<= std_logic_vector (addresscalc);
 			when "100" =>		-- bgezal
 				branch <= '1';
-				writedata <= std_logic_vector (retaddr);
 				address <= std_logic_vector (addresscalc); 
 			when others =>
 				branch	<= '0';
