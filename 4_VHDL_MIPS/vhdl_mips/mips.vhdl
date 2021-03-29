@@ -126,9 +126,10 @@ end component;
 	signal branchaddress, extended, instruction, readdata1, readdata2, memorydata, current_pc, add_pc, writedata, result, aludatasel	: std_logic_vector (31 downto 0);
 
 begin
-	writereg <=	instruction (15 downto 11)	when regdst = "01" else
-				"11111" when regdst = "10" else
-				instruction (20 downto 16);
+	with regdst select
+		writereg <=	instruction (15 downto 11)	when "01",
+				"11111" when "10",
+				instruction (20 downto 16)	when others;
 
 	with memtoreg select
 		writedata <=	memorydata			when '1',
