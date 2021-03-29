@@ -53,7 +53,7 @@ begin
 				else
 					branch <= '0';
 				end if;
-			when "01011" =>		-- bgez, bgezal
+			when "01011" =>		-- bgez, bgezal (assignment 3)
 				result <= "00000000000000000000000000000000";
 				if (signed (data1) >= to_signed (0, 32)) then
 					branch <= '1';
@@ -88,7 +88,7 @@ begin
 				else
 					branch <= '0';
 				end if;
-			when "10000" => 	-- slt
+			when "10000" => 	-- slt (assignment 3)
 				if (signed (data1) < signed(data2)) then
 					result <= "00000000000000000000000000000001";
 				else

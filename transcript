@@ -2169,3 +2169,859 @@ run
 #    Time: 0 ns  Iteration: 1  Instance: /mips_tb/mips_0/memorymap
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 2 ns  Iteration: 6  Instance: /mips_tb/mips_0/memorymap
+quit -sim
+# End time: 12:26:09 on Mar 29,2021, Elapsed time: 0:11:54
+# Errors: 0, Warnings: 8
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alu.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:26:20 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alu.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# End time: 12:26:20 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alucontrol.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:26:22 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alucontrol.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity alucontrol
+# -- Compiling architecture behavior of alucontrol
+# End time: 12:26:22 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:26:23 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity control
+# -- Compiling architecture behavior of control
+# End time: 12:26:23 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/extend.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:26:25 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/extend.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity extend
+# -- Compiling architecture behavior of extend
+# End time: 12:26:25 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/jump.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:26:26 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/jump.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity jump
+# -- Compiling architecture behavior of jump
+# End time: 12:26:26 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/memory.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:26:28 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/memory.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory
+# -- Compiling architecture behavior of memory
+# End time: 12:26:28 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:26:30 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mips
+# -- Compiling architecture behavior of mips
+# End time: 12:26:30 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips_tb.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:26:32 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mips_tb
+# -- Compiling architecture behaviour of mips_tb
+# End time: 12:26:32 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/pc.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:26:33 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/pc.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pc
+# -- Compiling architecture behavior of pc
+# End time: 12:26:33 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips_tb.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:26:35 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mips_tb
+# -- Compiling architecture behaviour of mips_tb
+# End time: 12:26:35 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/registers.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:26:36 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/registers.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity registers
+# -- Compiling architecture behavior of registers
+# End time: 12:26:36 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.mips_tb
+# vsim work.mips_tb 
+# Start time: 12:26:45 on Mar 29,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.mips_tb(behaviour)#1
+# Loading ieee.numeric_std(body)
+# Loading work.mips(behavior)#1
+add wave -position insertpoint  \
+sim:/mips_tb/clk
+add wave -position insertpoint  \
+sim:/mips_tb/mips_0/pcmap/pc
+add wave -position insertpoint  \
+sim:/mips_tb/mips_0/registersmap/registers
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 6  Instance: /mips_tb/mips_0/memorymap
+add wave -position insertpoint  \
+sim:/mips_tb/mips_0/registersmap/writereg
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 6  Instance: /mips_tb/mips_0/memorymap
+quit -sim
+# End time: 12:34:11 on Mar 29,2021, Elapsed time: 0:07:26
+# Errors: 0, Warnings: 8
+# Load canceled
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alu.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:34:45 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alu.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# End time: 12:34:45 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alucontrol.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:34:47 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alucontrol.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity alucontrol
+# -- Compiling architecture behavior of alucontrol
+# End time: 12:34:48 on Mar 29,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:34:50 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity control
+# -- Compiling architecture behavior of control
+# End time: 12:34:50 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/extend.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:34:51 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/extend.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity extend
+# -- Compiling architecture behavior of extend
+# End time: 12:34:51 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/jump.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:34:53 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/jump.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity jump
+# -- Compiling architecture behavior of jump
+# End time: 12:34:53 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/memory.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:34:55 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/memory.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory
+# -- Compiling architecture behavior of memory
+# End time: 12:34:55 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:34:56 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mips
+# -- Compiling architecture behavior of mips
+# End time: 12:34:56 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips_tb.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:34:58 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mips_tb
+# -- Compiling architecture behaviour of mips_tb
+# End time: 12:34:58 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/pc.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:34:59 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/pc.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pc
+# -- Compiling architecture behavior of pc
+# End time: 12:34:59 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/registers.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:35:01 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/registers.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity registers
+# -- Compiling architecture behavior of registers
+# End time: 12:35:01 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/test.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:35:02 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/test.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory
+# -- Compiling architecture behavior of memory
+# End time: 12:35:02 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.mips_tb
+# vsim work.mips_tb 
+# Start time: 12:35:13 on Mar 29,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.mips_tb(behaviour)#1
+# Loading ieee.numeric_std(body)
+# Loading work.mips(behavior)#1
+add wave -position insertpoint  \
+sim:/mips_tb/clk
+add wave -position insertpoint  \
+sim:/mips_tb/mips_0/pcmap/pc
+add wave -position insertpoint  \
+sim:/mips_tb/mips_0/registersmap/registers
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mips_tb/mips_0/memorymap
+add wave -position insertpoint  \
+sim:/mips_tb/mips_0/registersmap/writereg
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mips_tb/mips_0/memorymap
+add wave -position insertpoint  \
+sim:/mips_tb/mips_0/writereg
+add wave -position insertpoint  \
+sim:/mips_tb/mips_0/regwrite
+restart -f
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mips_tb/mips_0/memorymap
+quit -sim
+# End time: 12:46:49 on Mar 29,2021, Elapsed time: 0:11:36
+# Errors: 0, Warnings: 7
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alu.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:49:08 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alu.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# End time: 12:49:08 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alucontrol.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:49:09 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alucontrol.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity alucontrol
+# -- Compiling architecture behavior of alucontrol
+# End time: 12:49:09 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:49:11 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity control
+# -- Compiling architecture behavior of control
+# ** Error: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(34): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(43): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(47): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(58): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(67): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(76): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(85): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(94): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(103): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(112): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(121): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(130): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(139): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(148): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(157): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(166): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(175): String literal found where non-array type ieee.std_logic_1164.STD_LOGIC was expected.
+# ** Error: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(182): VHDL Compiler exiting
+# End time: 12:49:11 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 18, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:50:09 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity control
+# -- Compiling architecture behavior of control
+# End time: 12:50:09 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:50:10 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity control
+# -- Compiling architecture behavior of control
+# End time: 12:50:10 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/extend.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:50:11 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/extend.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity extend
+# -- Compiling architecture behavior of extend
+# End time: 12:50:11 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/jump.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:50:13 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/jump.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity jump
+# -- Compiling architecture behavior of jump
+# End time: 12:50:13 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/memory.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:50:14 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/memory.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory
+# -- Compiling architecture behavior of memory
+# End time: 12:50:14 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:50:16 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mips
+# -- Compiling architecture behavior of mips
+# ** Error: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl(121): (vcom-1294) Declaration with designator "memtoreg" already exists in this region.
+# ** =====> Prior declaration of "memtoreg" is at /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl(120).
+# ** Error: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl(135): near "selectd": (vcom-1576) expecting SELECT.
+# ** Error: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl(216): VHDL Compiler exiting
+# End time: 12:50:16 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:50:30 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mips
+# -- Compiling architecture behavior of mips
+# ** Error: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl(121): (vcom-1294) Declaration with designator "memtoreg" already exists in this region.
+# ** =====> Prior declaration of "memtoreg" is at /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl(120).
+# ** Error: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl(216): VHDL Compiler exiting
+# End time: 12:50:30 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:50:44 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mips
+# -- Compiling architecture behavior of mips
+# End time: 12:50:44 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips_tb.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:50:46 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mips_tb
+# -- Compiling architecture behaviour of mips_tb
+# End time: 12:50:46 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/pc.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:50:48 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/pc.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pc
+# -- Compiling architecture behavior of pc
+# End time: 12:50:48 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/registers.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 12:50:50 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/registers.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity registers
+# -- Compiling architecture behavior of registers
+# End time: 12:50:50 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.mips_tb
+# vsim work.mips_tb 
+# Start time: 12:50:59 on Mar 29,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.mips_tb(behaviour)#1
+# Loading ieee.numeric_std(body)
+# Loading work.mips(behavior)#1
+add wave -position insertpoint  \
+sim:/mips_tb/clk
+add wave -position insertpoint  \
+sim:/mips_tb/mips_0/pcmap/pc
+add wave -position insertpoint  \
+sim:/mips_tb/mips_0/registersmap/registers
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 6  Instance: /mips_tb/mips_0/memorymap
+quit -sim
+# End time: 13:04:20 on Mar 29,2021, Elapsed time: 0:13:21
+# Errors: 0, Warnings: 8
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alu.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 13:04:26 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alu.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# End time: 13:04:26 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alucontrol.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 13:04:27 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alucontrol.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity alucontrol
+# -- Compiling architecture behavior of alucontrol
+# End time: 13:04:27 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 13:04:29 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity control
+# -- Compiling architecture behavior of control
+# ** Warning: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(29): (vcom-1272) Length of expected is 3; length of actual is 2.
+# ** Warning: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(31): (vcom-1272) Length of expected is 3; length of actual is 2.
+# ** Warning: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(49): (vcom-1272) Length of expected is 3; length of actual is 2.
+# ** Warning: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(56): (vcom-1272) Length of expected is 3; length of actual is 2.
+# ** Warning: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(65): (vcom-1272) Length of expected is 3; length of actual is 2.
+# ** Warning: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(74): (vcom-1272) Length of expected is 3; length of actual is 2.
+# ** Warning: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(83): (vcom-1272) Length of expected is 3; length of actual is 2.
+# ** Warning: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(92): (vcom-1272) Length of expected is 3; length of actual is 2.
+# ** Warning: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(101): (vcom-1272) Length of expected is 3; length of actual is 2.
+# ** Warning: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(110): (vcom-1272) Length of expected is 3; length of actual is 2.
+# ** Warning: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(119): (vcom-1272) Length of expected is 3; length of actual is 2.
+# ** Warning: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(128): (vcom-1272) Length of expected is 3; length of actual is 2.
+# ** Warning: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(137): (vcom-1272) Length of expected is 3; length of actual is 2.
+# ** Warning: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(146): (vcom-1272) Length of expected is 3; length of actual is 2.
+# ** Warning: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(155): (vcom-1272) Length of expected is 3; length of actual is 2.
+# ** Warning: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(164): (vcom-1272) Length of expected is 3; length of actual is 2.
+# ** Warning: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl(173): (vcom-1272) Length of expected is 3; length of actual is 2.
+# End time: 13:04:29 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 17
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 13:04:43 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/control.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity control
+# -- Compiling architecture behavior of control
+# End time: 13:04:44 on Mar 29,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alucontrol.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 13:04:46 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/alucontrol.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity alucontrol
+# -- Compiling architecture behavior of alucontrol
+# End time: 13:04:46 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/extend.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 13:04:48 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/extend.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity extend
+# -- Compiling architecture behavior of extend
+# End time: 13:04:48 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/jump.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 13:04:49 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/jump.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity jump
+# -- Compiling architecture behavior of jump
+# End time: 13:04:49 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/memory.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 13:04:50 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/memory.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity memory
+# -- Compiling architecture behavior of memory
+# End time: 13:04:51 on Mar 29,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 13:04:52 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mips
+# -- Compiling architecture behavior of mips
+# ** Error (suppressible): /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl(153): (vcom-1272) Length of formal "branchcontrol" is 2; length of actual is 3.
+# ** Error (suppressible): /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl(192): (vcom-1272) Length of formal "branch" is 2; length of actual is 3.
+# ** Error: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl(216): VHDL Compiler exiting
+# End time: 13:04:52 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips_tb.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 13:05:06 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mips_tb
+# -- Compiling architecture behaviour of mips_tb
+# End time: 13:05:06 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 13:05:12 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mips
+# -- Compiling architecture behavior of mips
+# ** Error (suppressible): /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl(153): (vcom-1272) Length of formal "branchcontrol" is 2; length of actual is 3.
+# ** Error (suppressible): /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl(192): (vcom-1272) Length of formal "branch" is 2; length of actual is 3.
+# ** Error: /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl(216): VHDL Compiler exiting
+# End time: 13:05:12 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 13:05:40 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mips
+# -- Compiling architecture behavior of mips
+# End time: 13:05:40 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 13:05:40 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mips
+# -- Compiling architecture behavior of mips
+# End time: 13:05:41 on Mar 29,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips_tb.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 13:05:43 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/mips_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mips_tb
+# -- Compiling architecture behaviour of mips_tb
+# End time: 13:05:43 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/pc.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 13:05:44 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/pc.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pc
+# -- Compiling architecture behavior of pc
+# End time: 13:05:44 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/registers.vhdl
+# QuestaSim-64 vcom 10.6g Compiler 2019.08 Aug  2 2019
+# Start time: 13:05:46 on Mar 29,2021
+# vcom -reportprogress 300 -work work /home/timo/Projects/EE3D11_COA/4_VHDL_MIPS/vhdl_mips/registers.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity registers
+# -- Compiling architecture behavior of registers
+# End time: 13:05:46 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.mips_tb
+# vsim work.mips_tb 
+# Start time: 13:05:57 on Mar 29,2021
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.mips_tb(behaviour)#1
+# Loading ieee.numeric_std(body)
+# Loading work.mips(behavior)#1
+add wave -position insertpoint  \
+sim:/mips_tb/mips_0/clk
+add wave -position insertpoint  \
+sim:/mips_tb/mips_0/current_pc
+add wave -position insertpoint  \
+sim:/mips_tb/mips_0/jumpmap/registers
+add wave -position insertpoint  \
+sim:/mips_tb/mips_0/registersmap/registers
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /mips_tb/mips_0/registersmap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /mips_tb/mips_0/memorymap
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 2 ns  Iteration: 6  Instance: /mips_tb/mips_0/memorymap

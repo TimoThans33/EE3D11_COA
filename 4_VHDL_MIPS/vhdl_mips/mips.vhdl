@@ -41,10 +41,10 @@ component control
 		instruction	: in  std_logic_vector (5 downto 0);
 		funct		: in  std_logic_vector (5 downto 0);
 		zerobranch	: in std_logic_vector (4 downto 0);
-		branch		: out std_logic_vector (2 downto 0);
+		branch		: out std_logic_vector (1 downto 0);
 		regdst		: out std_logic_vector (1 downto 0);
 		memread		: out std_logic;
-		memtoreg	: out std_logic;
+		memtoreg	: out std_logic_vector (1 downto 0);
 		aluop		: out std_logic_vector (2 downto 0);
 		memwrite	: out std_logic;
 		alusrc		: out std_logic;
@@ -65,7 +65,7 @@ component jump
 	port
 	(
 		branchalu	: in  std_logic;
-		branchcontrol	: in  std_logic_vector ( 2 downto 0);
+		branchcontrol	: in  std_logic_vector ( 1 downto 0);
 		extend		: in  std_logic_vector (31 downto 0);
 		jump		: in  std_logic_vector (25 downto 0);
 		registers	: in  std_logic_vector (31 downto 0);
@@ -117,24 +117,26 @@ component registers
 	);
 end component;
 
-	signal branch, branchalu, regwrite, memread, memtoreg, memwrite, alusrc : std_logic;
+	signal branch, branchalu, regwrite, memread, memwrite, alusrc : std_logic;
+	signal memtoreg		: std_logic_vector( 1 downto 0);
 	signal regdst		: std_logic_vector( 1 downto 0);
-	signal branchcontrol	: std_logic_vector (2 downto 0);
+	signal branchcontrol	: std_logic_vector (1 downto 0);
 	signal aluop		: std_logic_vector (2 downto 0);
 	signal aluinstr		: std_logic_vector (4 downto 0);
 	signal writereg		: std_logic_vector (4 downto 0);
 	signal branchaddress, extended, instruction, readdata1, readdata2, memorydata, current_pc, add_pc, writedata, result, aludatasel	: std_logic_vector (31 downto 0);
 
 begin
+	-- 3 to 1 mux for bgzal function (write to GPR[31])
 	with regdst select
 		writereg <=	instruction (15 downto 11)	when "01",
 				"11111" when "10",
 				instruction (20 downto 16)	when others;
-
+	-- 3 to 1 mux for bgzal function (write PC+8 to GPR[31])
 	with memtoreg select
-		writedata <=	memorydata			when '1',
-				result				when others;
-
+		writedata <= memorydata	when "01",
+				std_logic_vector ( unsigned( current_pc ) + to_unsigned( 8, 32 )) when "10",
+				result when others;
 	with alusrc select
 		aludatasel <=	extended			when '1',
 				readdata2			when others;
